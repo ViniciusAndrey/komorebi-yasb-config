@@ -1,0 +1,91 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.36/schema.json",
+  "app_specific_configuration_path": "$Env:USERPROFILE/applications.json",
+  "window_hiding_behaviour": "Cloak",
+  "cross_monitor_move_behaviour": "Insert",
+  "default_workspace_padding": 3,
+  "default_container_padding": 3,
+  "focus_follows_mouse": "Komorebi",
+  "mouse_follows_focus": false,
+  "transparency": false,
+  "transparency_alpha": 225,
+  "animation": {
+    "enabled": true,
+    "duration": 400,
+    "style": "EaseOutBack",
+    "fps": 120
+  },
+  "border": false,
+  "border_width": 0,
+  "border_offset": 0,
+"border_colours": {
+  "single": "#aecbfa",
+  "stack": "#f7dba7",
+  "monocle": "#f8bbd0"
+},
+  "stackbar": {
+    "mode": "Never"
+  },
+  "float_rules": [
+    {
+      "kind": "Exe",
+      "id": "explorer.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "Discord.exe",
+      "matching_strategy": "Equals"
+    }
+  ],
+  "monitors": [
+    {
+      "workspaces": [
+        {
+            "name": "1",
+            "layout": "BSP"
+          },
+          {
+            "name": "2",
+            "layout": "BSP"
+          },
+          {
+            "name": "3",
+            "layout": "BSP"
+          },
+          {
+            "name": "4",
+            "layout": "BSP"
+          },
+          {
+            "name": "5",
+            "layout": "BSP"
+          }
+      ]
+    },
+    {
+      "workspaces": [
+        {
+          "name": "1",
+          "layout": "BSP"
+        },
+        {
+          "name": "2",
+          "layout": "BSP"
+        },
+        {
+          "name": "3",
+          "layout": "BSP"
+        },
+        {
+          "name": "4",
+          "layout": "BSP"
+        },
+        {
+          "name": "5",
+          "layout": "BSP"
+        }
+      ]
+    }
+  ]
+}
