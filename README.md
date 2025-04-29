@@ -22,7 +22,7 @@ Komorebi + YASB
 - Follow the setup guide in the repository to configure **automatic window management** on your Windows system.
 
 ### 2. Download **YASB Reborn**
-- Official repository: [YASB Reborn on GitHub](https://github.com/naelstrof/yasb)
+- Official repository: [YASB Reborn on GitHub](https://github.com/amnweb/yasb)
 - Install and customize it to create a **minimalistic and functional taskbar**.
 
 ### 3. (Optional) Download **Windhawk**
